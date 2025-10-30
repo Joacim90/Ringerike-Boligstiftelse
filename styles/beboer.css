@@ -19,10 +19,19 @@ h2 {
   text-align: center;
   color: white;
 }
+
+.cards a {
+  display: block;
+  color: white;
+}
 .card {
   background-color: #132925;
   padding: 40px;
   border-radius: 20px;
+  transition: 0.2s ease-in;
+}
+.card:hover {
+  background-color: #1a3832;
 }
 
 .card h3 {
@@ -32,4 +41,25 @@ h2 {
 
 .card img {
   max-width: 100%;
+}
+
+.flags {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.flags a {
+  display: inline;
+}
+
+.flags img {
+  width: 100px;
+}
+
+.ukraine img {
+  min-height: 128px;
 }
